@@ -1,0 +1,14 @@
+.location-text{
+    font-size: 16px;
+    font-family: "Inter";
+}
+.location-text-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left-arrow{
+    color: #B0BABF;
+}

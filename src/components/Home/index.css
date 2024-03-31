@@ -1,0 +1,59 @@
+.home-container{
+    background-color: #ffffff;
+    height: 100vh;
+    width: 100vw;
+}
+
+.banner {
+    position: relative;
+  }
+.nav-links{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    width: 90%;
+
+}
+  .banner img {
+    width: 100%;
+    display: block;
+  }
+  
+  .banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .banner-content h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .banner-content p {
+    font-size: 18px;
+  }
+  
+  /* Styles for the Recommendation and UpcomingEvents components */
+  .recommended-events-container,
+  .upcoming-events-container {
+    margin-top: 20px;
+  }
+  
+
+  .nav-links li a {
+    text-decoration: none; /* Removes underline */
+  }
+
+ .top-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+
